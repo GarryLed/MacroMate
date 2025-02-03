@@ -1,0 +1,20 @@
+// SCSS styling 
+.space { 
+    flex: 0.3; // creating space betwen logo and nav items  
+}
+
+// Main nav styling 
+mat-toolbar { 
+    font-size: 1.3em;
+}
+
+a { 
+    text-decoration: none;
+    border: 1px solid red;
+    margin: 0.2em;
+    padding: 0.2em;
+    
+}
+
+
+
