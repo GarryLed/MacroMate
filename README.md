@@ -39,3 +39,8 @@ The app allows users to **search a nutrition database via an API** to find foods
   - **Pie charts** showing:
     - **Remaining calories and macros**.
     - **Percentage of goals achieved**.
+
+
+
+
+
