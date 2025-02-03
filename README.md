@@ -1,59 +1,41 @@
-# MacroMate
+# MacroMate - Calorie & Macronutrient Tracker
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.3.
+## Overview
+The **MacroMate Calorie and Macronutrition App** is designed to help users track their **daily calorie intake** and monitor **macronutrients** (Protein, Carbs, and Fats).  
+The app allows users to **search a nutrition database via an API** to find foods with nutritional data that can be used for tracking.
 
-## Development server
+---
 
-To start a local development server, run:
+## Features
 
-```bash
-ng serve
-```
+### **Set Daily Goals**
+- Set **total daily calorie intake** based on health/fitness goals.
+- Define **macro percentages** (total must equal daily calories):
+  - **Protein:** 40%
+  - **Carbs:** 40%
+  - **Fats:** 20%
+- Users can **adjust macro percentages** at any time.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### **Progress Visualization**
+- **Pie charts** to track progress towards daily goals:
+  - Displays **protein, carbs, and fats intake (%)**.
+  - Shows **percentage of total calories consumed**.
 
-## Code scaffolding
+### **Food Search (Nutrition API)**
+- Users can search for food items by name (e.g., `"Banana"`, `"Turkey breast"`).
+- The app fetches **calorie and nutrition data** from an API like **Nutritionix** or **Edamam**.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+###  **Log Meals into Categories**
+- Users can categorize logged meals:
+  - **Breakfast**
+  - **Lunch**
+  - **Dinner**
+  - **Snacks**
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### **Daily Summary**
+- Displays:
+  - **All meals & food consumed**.
+  - **Calories & macronutrients for the entire day**.
+  - **Pie charts** showing:
+    - **Remaining calories and macros**.
+    - **Percentage of goals achieved**.
